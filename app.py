@@ -8,10 +8,6 @@ df_cars = pd.read_csv('datasets/vehicles_us.csv')
 
 st.header('Análisis Exploratorio de Datos de Vehículos')
 
-# Mostrar el dataframe (opcional, puedes descomentarlo)
-# st.write('### Listado de vehículos')
-# st.dataframe(df_cars.head())
-
 st.write('Selecciona las gráficas que deseas visualizar:')
 
 # Crear casillas de verificación (checkbox)
